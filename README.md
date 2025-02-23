@@ -10,7 +10,7 @@ $ flutter pub add trackmyuser_sdk
 
 ```dart
 TrackmyuserKey key = TrackmyuserKey();
-key.setAndroidKey("YOUR_ANDROID_SDK_KEY);
+key.setAndroidKey("YOUR_ANDROID_SDK_KEY");
 key.setiOSKey("YOUR_IOS_SDK_KEY");
 TrackmyuserConfig config = TrackmyuserConfig(key);
 TrackmyuserSdk.init(config);
