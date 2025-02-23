@@ -35,7 +35,7 @@ config.deferredDeeplinkCallback = (Map<String, String> params){
 TrackmyuserSdk.init(config);
 ```
 
-## 5. Set User Id
+## 5. User Tracking
 
 The user Id will be automatically be attached to all events fired in the session. The user Id can also be used in the S2S API to attribute installs to events. 
 
